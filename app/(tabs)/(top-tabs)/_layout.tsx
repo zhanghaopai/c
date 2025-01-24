@@ -16,7 +16,7 @@ import {
     MaterialTopTabNavigationEventMap
   >(Navigator);
   
-  export default function TabLayout() {
+  export default function TopTabLayout() {
     return (
       <MaterialTopTabs>
         <MaterialTopTabs.Screen name="bussiness" options={{ title: "商业" }} />

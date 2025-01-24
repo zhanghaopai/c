@@ -4,7 +4,7 @@ import { Tabs } from 'expo-router';
 
 export default function TabLayout() {
     return (
-        <Tabs screenOptions={{ tabBarActiveTintColor: 'blue' }}>
+        <Tabs screenOptions={{ tabBarActiveTintColor: 'blue'}}>
             <Tabs.Screen
                 name="(top-tabs)"
                 options={{
@@ -15,6 +15,10 @@ export default function TabLayout() {
             />
             <Tabs.Screen
                 name="index"
+                options={{href: null}}
+            />
+            <Tabs.Screen
+                name="forehead"
                 options={{
                     headerShown: false,
                     title: '提前还款',
@@ -24,3 +28,4 @@ export default function TabLayout() {
         </Tabs>
     );
 }
+
