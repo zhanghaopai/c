@@ -1,12 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const Forehead = () => {
+const Combine = () => {
   return (
     <View>
-      <Text>Forehead</Text>
+      <Text>Combine</Text>
     </View>
   )
 }
 
-export default Forehead
+export default Combine

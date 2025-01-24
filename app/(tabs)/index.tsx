@@ -1,6 +1,12 @@
 import React from 'react'
-import { View } from "react-native";
+import { View, Text } from "react-native";
 
-const Home = () => <View style={{ flex: 1, backgroundColor: "red" }} />
+const Home = () => {
+    return(
+        <View>
+            <Text>Home</Text>
+        </View>
+    );
+}
 
 export default Home

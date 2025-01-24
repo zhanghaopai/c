@@ -6,21 +6,15 @@ export default function TabLayout() {
     return (
         <Tabs screenOptions={{ tabBarActiveTintColor: 'blue' }}>
             <Tabs.Screen
-                name="index"
+                name="(top-tabs)"
                 options={{
                     headerShown: false,
                     title: '贷款计算',
                     tabBarIcon: ({ color }) => <FontAwesome size={28} name="home" color={color} />,
                 }}
-                listeners={({ navigation }) => ({
-                    tabPress: (e) => {
-                        e.preventDefault()
-                        navigation.navigate("(top-tabs)")
-                    },
-                })}
             />
             <Tabs.Screen
-                name="forehead"
+                name="index"
                 options={{
                     headerShown: false,
                     title: '提前还款',
