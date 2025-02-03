@@ -20,8 +20,8 @@ import {
     return (
       <MaterialTopTabs>
         <MaterialTopTabs.Screen name="bussiness" options={{ title: "商业" }} />
-        <MaterialTopTabs.Screen name="combine" options={{ title: "组合" }} />
         <MaterialTopTabs.Screen name="fund" options={{ title: "公积金" }} />
+        <MaterialTopTabs.Screen name="combine" options={{ title: "组合" }} />
       </MaterialTopTabs>
     );
   }
